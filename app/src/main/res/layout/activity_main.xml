@@ -52,30 +52,44 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/txv1.1.1"
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="0dp"
+            android:layout_height="182dp"
+            android:layout_weight="1"
+            android:src="@drawable/selfie" />
+
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txv1.1.1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:text="王畊弘"
             android:textSize="25dp"/>
 
         <TextView
             android:id="@+id/txv1.1.2"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:text="資管二B"
             android:textSize="25dp"/>
 
         <TextView
             android:id="@+id/txv1.1.3"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:text="411030232"
             android:textSize="25dp"/>
-
+        </LinearLayout>
     </LinearLayout>
 
     <TextView
@@ -107,27 +121,12 @@
             android:textSize="25dp"/>
     </LinearLayout>
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/txv1.4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/img1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@drawable/selfie" />
-
-        <TextView
-            android:id="@+id/txv1.4"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:text="嗨，大家好！我是一名大學生，目前就讀於靜宜大學，主修資訊學系，資管系。我喜歡閱讀、寫程式和旅遊。希望在大學裡可以學到更多知識，認識更多有趣的人，並且發揮自己的才能和能力。謝謝！"
-            android:textSize="25dp"/>
-
-    </LinearLayout>
+        android:layout_height="222dp"
+        android:text="嗨，大家好！我是一名大學生，目前就讀於靜宜大學，主修資訊學系，資管系。我喜歡閱讀、寫程式和旅遊。希望在大學裡可以學到更多知識，認識更多有趣的人，並且發揮自己的才能和能力。謝謝！"
+        android:textSize="25dp" />
 
 </LinearLayout>
 
