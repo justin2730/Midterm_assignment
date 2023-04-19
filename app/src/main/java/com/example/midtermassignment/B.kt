@@ -17,4 +17,9 @@ class B : AppCompatActivity() {
         val intent = Intent(this, MainActivity::class.java )
         startActivity(intent)
     }
+
+    fun page3(view: View){
+        val intent = Intent(this, C::class.java )
+        startActivity(intent)
+    }
 }

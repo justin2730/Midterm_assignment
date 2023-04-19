@@ -23,20 +23,20 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn1_to_2"
-            android:onClick="page2"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="第2頁" />
-
-        <Button
             android:id="@+id/btn1_to_3"
             android:onClick="page3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="第3頁" />
+            android:text="上一頁" />
+
+        <Button
+            android:id="@+id/btn1_to_2"
+            android:onClick="page2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下一頁" />
 
     </LinearLayout>
 
