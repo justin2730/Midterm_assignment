@@ -15,7 +15,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="第1頁"
-        android:textSize="25dp"/>
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_blue_dark"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,7 +46,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="基本資料"
-        android:textSize="55dp"/>
+        android:textSize="55dp"
+        android:textColor="@android:color/holo_blue_dark"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -72,7 +74,8 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="王畊弘"
-            android:textSize="25dp"/>
+            android:textSize="25dp"
+            android:textColor="@android:color/holo_blue_dark"/>
 
         <TextView
             android:id="@+id/txv1.1.2"
@@ -80,7 +83,8 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="資管二B"
-            android:textSize="25dp"/>
+            android:textSize="25dp"
+            android:textColor="@android:color/holo_blue_dark"/>
 
         <TextView
             android:id="@+id/txv1.1.3"
@@ -88,8 +92,11 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="411030232"
-            android:textSize="25dp"/>
+            android:textSize="25dp"
+            android:textColor="@android:color/holo_blue_dark"/>
+
         </LinearLayout>
+
     </LinearLayout>
 
     <TextView
@@ -97,7 +104,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="生日:2003/05/18"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_blue_dark"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -110,7 +118,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="星座:金牛座"
-            android:textSize="25dp"/>
+            android:textSize="25dp"
+            android:textColor="@android:color/holo_blue_dark"/>
 
         <TextView
             android:id="@+id/txv1.3.2"
@@ -118,15 +127,26 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="生肖:羊"
-            android:textSize="25dp"/>
+            android:textSize="25dp"
+            android:textColor="@android:color/holo_blue_dark"/>
+
     </LinearLayout>
 
     <TextView
         android:id="@+id/txv1.4"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-------------------------------------------------"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:id="@+id/txv1.5"
+        android:layout_width="match_parent"
         android:layout_height="222dp"
         android:text="嗨，大家好！我是一名大學生，目前就讀於靜宜大學，主修資訊學系，資管系。我喜歡閱讀、寫程式和旅遊。希望在大學裡可以學到更多知識，認識更多有趣的人，並且發揮自己的才能和能力。謝謝！"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_blue_dark"/>
 
 </LinearLayout>
 
