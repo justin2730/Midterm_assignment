@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/backgrand7"
+    >
+    <TextView
+        android:id="@+id/page3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地3頁"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btn3_to_1"
+        android:onClick="page1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="回首頁" />
+
+    <TextView
+        android:id="@+id/txv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="喜歡角色"
+        android:textSize="55dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img3.1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/sinon1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txv3.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="朝田師奶"
+                android:textColor="@android:color/black"
+                android:textSize="35dp"/>
+
+            <ImageView
+                android:id="@+id/img3.2"
+                android:layout_width="wrap_content"
+                android:layout_height="214dp"
+                android:src="@drawable/sinon2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txv3.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="貓又小粥"
+                android:textColor="@android:color/black"
+                android:textSize="35dp"/>
+
+            <ImageView
+                android:id="@+id/img3.3"
+                android:layout_width="wrap_content"
+                android:layout_height="149dp"
+                android:src="@drawable/okayu1" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img3.4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/okayu2" />
+
+    </LinearLayout>
+
+</LinearLayout>
